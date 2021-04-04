@@ -1,0 +1,72 @@
+* { box-sizing: border-box;}
+
+  header {
+    width: 80%;
+    margin: auto;
+  }
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 90px;
+    font-family: 'Poppins', sans-serif;
+    color: #242635;
+    margin-bottom: 5px;
+  }
+
+  li {
+    list-style: none;
+    padding: 20px;
+  }
+  
+  .logo {
+    color:#242635;
+    font-size: 24px;
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 400;
+  }
+  
+  .navigation {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .nav-list {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .nav-link {
+    color: #242635;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+  }
+  
+  .infotext {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .patagonia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .icon {
+    display: none;
+  }
