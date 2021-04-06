@@ -70,3 +70,70 @@
   .icon {
     display: none;
   }
+
+  @media (max-width:768px) { /*ipad*/
+  
+    .logo { 
+    color: #242635;
+    font-size: 24px;
+    font-family: 'balo', sans-serif; 
+  }
+  
+    .h1 {
+    font-size: 72px; 
+  }
+  
+    .horses-tablet{
+      position: relative;
+      bottom:0px;
+      display: block;
+    }
+  
+    .horse-pic{
+      display: none;
+    }
+  
+    .horses-mobile{
+      display: none;
+    }
+   
+  }
+  
+  @media (max-width:320px) /*mobile*/
+   {
+  .logo { 
+    color: #242635;
+    font-size: 24px;
+    font-family: 'balo', sans-serif; 
+  }
+  
+  .icon {
+    display: inline;
+  }
+  
+  .nav_link {
+    display: none;
+  }
+  
+  h1 {
+    font-size: 36px; 
+  }
+  
+  .info-text {
+    font-size: 12px; 
+  }
+  
+  .horses-mobile{
+    position: relative;
+    bottom: 0px;
+    display: block;
+  }
+
+  .horses-tablet{
+    display: none;
+  }
+  
+  .horse-pic{
+    display: none;
+  }
+}
