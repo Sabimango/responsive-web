@@ -71,6 +71,14 @@
     display: none;
   }
 
+  .horses-mobile{
+    display: none;
+  }
+
+  .horses-tablet{
+    display: none;
+  }
+
   @media (max-width:768px) { /*ipad*/
   
     .logo { 
@@ -89,11 +97,14 @@
       display: block;
     }
   
-    .horse-pic{
+    .horses{
       display: none;
     }
   
     .horses-mobile{
+      display: none;
+    }
+    .icon {
       display: none;
     }
    
@@ -105,10 +116,13 @@
     color: #242635;
     font-size: 24px;
     font-family: 'balo', sans-serif; 
+    margin-right: auto;
   }
   
   .icon {
     display: inline;
+    display: flex;
+    justify-content: flex-end;
   }
   
   .nav_link {
@@ -133,7 +147,7 @@
     display: none;
   }
   
-  .horse-pic{
+  .horses{
     display: none;
   }
 }
